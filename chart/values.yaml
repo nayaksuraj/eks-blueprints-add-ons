@@ -1,5 +1,5 @@
 # Global Values
-repoUrl: "https://github.com/aws-samples/eks-blueprints-add-ons.git"
+repoUrl: "https://github.com/nayaksuraj/eks-blueprints-add-ons.git"
 targetRevision: HEAD
 region: ""
 account: ""
@@ -64,7 +64,7 @@ externalDns:
 
 # External Secrets Operator
 externalSecrets:
-  enable: false
+  enable: true
 
 # Gatekeeper Values
 gatekeeper:
@@ -72,7 +72,7 @@ gatekeeper:
 
 # Nginx Values
 ingressNginx:
-  enable: false
+  enable: true
 
 # Karpenter Values
 karpenter:
