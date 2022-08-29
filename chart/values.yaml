@@ -72,7 +72,7 @@ gatekeeper:
 
 # Nginx Values
 ingressNginx:
-  enable: true
+  enable: false
 
 # Karpenter Values
 karpenter:
